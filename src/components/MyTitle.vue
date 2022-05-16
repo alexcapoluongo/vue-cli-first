@@ -1,20 +1,22 @@
 <template>
+    <div>
+        <h1> {{ title }} </h1>
+    </div>
     
-    <h1> {{ title }} </h1>
-
 </template>
 
 <script>
+export default{
+    
+    name:"MyTitle",
 
-export default({
     data() {
         return {
             title: "La mia prima app con Vue CLI!",
         } 
     },  
-})
+}
 </script>
 
 <style scoped>
-
 </style>
